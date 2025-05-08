@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\S627.PFIES.Communication\S627.PFIES.Communication.csproj" />
+    <ProjectReference Include="..\S627.PFIES.Domain\S627.PFIES.Domain.csproj" />
+    <ProjectReference Include="..\S627.PFIES.Exception\S627.PFIES.Exception.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\S627.PFIES.Application\S627.PFIES.Application.csproj" />
+    <ProjectReference Include="..\S627.PFIES.Communication\S627.PFIES.Communication.csproj" />
+    <ProjectReference Include="..\S627.PFIES.Exception\S627.PFIES.Exception.csproj" />
+    <ProjectReference Include="..\S627.PFIES.Infrastructure\S627.PFIES.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
